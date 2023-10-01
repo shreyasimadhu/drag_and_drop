@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drop and Drug</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <center>
+    <h2>Drag and Drop</h2>
+    <hr>
+    <div id="maindiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div> <br>
+    <img id="draganddrop" src="shreyasi.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+  </center>
+
+
+
+  <br><br>
+
+
+
+  <center>
+    <h2>Drag and Drop</h2>
+    <p>Drag the image back and forth between the two div elements.</p>
+
+    <div style="display:flex; justify-content: center;">
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="shreyasi.png" draggable="true" ondragstart="drag(event)" id="drag1" width="300" height="100%">
+      </div>
+
+      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+  </center>
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
